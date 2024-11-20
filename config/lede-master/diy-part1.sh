@@ -8,8 +8,6 @@
 
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 sed -i '$a packages https://github.com/coolsnowwolf/packages' feeds.conf.default
 sed -i '$a luci https://github.com/coolsnowwolf/luci.git' feeds.conf.default
 sed -i '$a routing https://github.com/coolsnowwolf/routing' feeds.conf.default
